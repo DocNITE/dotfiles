@@ -1,0 +1,30 @@
+* {
+   blue:             #73d0ff;
+   darkblue:         #B48EAD;
+   cyan:             #95e6cb;
+   lightcyan:        #B48EAD;
+   green:            #bae67e;
+   red:              #ff3333;
+   orange:           #f19618;
+
+   dark1:            #0a0e14;
+   dark2:            #1f2430;
+   dark3:            #b3b1ad;
+   dark4:            #b3b1ad;
+
+   gray1:            #646464;
+
+   light1:           #e6e1cf;
+
+   background-color: @dark1;
+   border-color:     @gray1;
+   selected-border-color: @dark2;
+   /*text-color:       @dark3;*/
+   /*dark-text-color:  @dark4;*/
+   text-color:         @light1;
+   dark-text-color:    @light1;
+   main-color:       @blue;
+   highlight:        @light1;
+   urgent-color:     @red;
+   selected-color:   @orange;
+}

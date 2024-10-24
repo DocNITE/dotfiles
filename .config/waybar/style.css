@@ -1,0 +1,117 @@
+/* Generic text color */
+@define-color text-col #e5e1cf;
+@define-color slider-col #e5e1cf;/*#769FF0; */
+/* Background color */
+@define-color bg-col #0E1419;
+/* Border color */
+@define-color border-col #646464;
+
+@define-color null-col rgba(0,0,0,0);
+
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold; 
+  font-size: 16px;
+  color: @text-col;
+}
+
+window#waybar {
+  background: @bg-col; 
+  border: 2px solid @border-col;
+  border-radius: 10px;
+}
+
+#workspaces{
+  font-weight: normal;
+  background: @null-col;
+  box-shadow: none;
+	text-shadow: none;
+  border-radius: 9px;
+  transition: 0.2s ease;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#workspaces button {
+  font-weight: normal;
+  background: @null-col;
+  box-shadow: none;
+	text-shadow: none;
+  padding-left: 0px;
+  padding-right: 5px;
+  border-color: rgba(0, 0, 0, 0);
+ /*   animation: ws_normal 20s ease-in-out 1; */
+}
+
+#workspaces button:hover {
+  background: none;
+  font-weight: normal;
+}
+
+#custom-spacer {
+  opacity: 0.3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+tooltip {
+  background: @bg-col;
+  color: @text-col;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 2px solid @border-col;
+}
+
+#backlight-slider slider,
+#pulseaudio-slider slider {
+  background: @slider-col;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+#backlight-slider trough,
+#pulseaudio-slider trough {
+  min-width: 9px;
+  min-height: 90px;
+  margin-bottom: -4px;
+  border-radius: 8px;
+  background: #343434;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+#backlight-slider highlight,
+#pulseaudio-slider highlight {
+  background-color: @slider-col;
+  border-radius: 8px;
+  border-color: transparent
+}
+
+#custom-menu {
+  opacity: 0.2;
+}
+
+#pulseaudio{
+  background: transparent;
+  margin-left: -3px;
+}
+
+#backlight{
+    font-weight: normal;
+    margin-left: -3px
+}
+
+#memory{
+    font-weight: normal;
+    margin-left: -2px
+}
+
+#idle_inhibitor{
+    font-weight: normal;
+    margin-left: -3px
+}
+
+#battery {
+  font-size: 20px;
+}
