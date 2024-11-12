@@ -1,0 +1,24 @@
+
+(defwidget bar-panel [?text name]
+	(box :orientation "horizontal"
+		 :halign "center"
+	  text
+	  (button :onclick "notify-send 'Hello' 'Hello, ${name}'"
+		"dGreetd")))
+
+		(defwidget labeled-container [name]
+			(box :class "container"
+			  name
+			  (children)))
+		  
+
+
+(defwindow example 
+	:monitor 0
+	:stacking "fg"
+	:exlusive true
+	(labeled-container :name "foo"
+  (button :onclick "notify-send hey ho"
+    "click me"))
+)
+  

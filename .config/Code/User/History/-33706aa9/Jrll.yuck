@@ -1,0 +1,17 @@
+(defvar button_active false)
+
+(defwidget wid []
+	(box
+		"Some math: ${12 + 1 * 10}"
+		(button :class {button_active ? "active" : "inactive"}
+				:onclick "eww update button_active=true"
+		  {button_active ? "disable" : "enable"}))
+	)
+
+(defwindow win-bar
+	:monitor 0
+	:stacking "fg"
+	:exlusive true
+	(wid)
+)
+  

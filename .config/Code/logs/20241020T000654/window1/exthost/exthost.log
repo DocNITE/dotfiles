@@ -1,0 +1,11 @@
+2024-10-20 00:06:55.933 [info] Extension host with pid 39875 started
+2024-10-20 00:06:55.933 [info] Skipping acquiring lock for /home/docnite/.config/Code/User/workspaceStorage/e24b6bd63353ddea62d5674b3ec2ec5e.
+2024-10-20 00:06:56.000 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-10-20 00:06:56.198 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-20 00:06:56.276 [info] Eager extensions activated
+2024-10-20 00:06:56.278 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 00:06:56.284 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 00:07:01.957 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-10-20 00:07:03.540 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-20 00:10:20.730 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-20 00:10:20.739 [info] Extension host with pid 39875 exiting with code 0

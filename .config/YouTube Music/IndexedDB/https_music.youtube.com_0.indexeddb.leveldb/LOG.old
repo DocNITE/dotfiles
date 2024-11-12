@@ -1,0 +1,19 @@
+2024/11/11-17:32:42.722 ad2c Reusing MANIFEST /home/docnite/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/11-17:32:42.723 ad2c Recovering log #22
+2024/11/11-17:32:42.741 ad2c Reusing old log /home/docnite/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000022.log 
+2024/11/11-19:45:08.544 ad11 Level-0 table #27: started
+2024/11/11-19:45:08.559 ad11 Level-0 table #27: 1669440 bytes OK
+2024/11/11-19:45:08.562 ad11 Delete type=0 #22
+2024/11/11-20:02:19.514 ad11 Compacting 1@1 + 1@2 files
+2024/11/11-20:02:19.522 ad11 Generated table #28@1: 564 keys, 32868 bytes
+2024/11/11-20:02:19.522 ad11 Compacted 1@1 + 1@2 files => 32868 bytes
+2024/11/11-20:02:19.523 ad11 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/11-20:02:19.523 ad11 Delete type=2 #24
+2024/11/11-20:02:19.523 ad11 Delete type=2 #27
+2024/11/12-03:34:33.892 ad2c Level-0 table #30: started
+2024/11/12-03:34:33.947 ad2c Level-0 table #30: 1529721 bytes OK
+2024/11/12-03:34:33.952 ad2c Delete type=0 #26
+2024/11/12-14:51:05.064 ad11 Compacting 1@1 + 1@2 files
+2024/11/12-14:51:05.078 ad11 Generated table #31@1: 1016 keys, 34769 bytes
+2024/11/12-14:51:05.079 ad11 Compacted 1@1 + 1@2 files => 34769 bytes
+2024/11/12-14:51:05.080 ad11 compacted to: files[ 0 0 1 0 0 0 0 ]

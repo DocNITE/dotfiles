@@ -1,0 +1,16 @@
+[ExtractDialog]
+1280x800 screen: Height=339
+1280x800 screen: Width=1777
+1920x1080 screen: Height=339
+1920x1080 screen: Width=1777
+2 screens: Height=533
+2 screens: Width=1692
+DirHistory[$e]=$HOME/Downloads/,$HOME/Documents/Resume/Fonts/,$HOME/Desktop/DM/,$HOME/Desktop/C#/,$HOME/Desktop/Wine/,$HOME/Desktop/Wine/slade3/,$HOME/Desktop/PS2/Saves/,$HOME/Desktop/Wine/MyMC/,$HOME/Desktop/PS2/,$HOME/Desktop/PS2/BIOS/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled

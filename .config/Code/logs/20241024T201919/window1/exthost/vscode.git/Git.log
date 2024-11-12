@@ -1,0 +1,33 @@
+2024-10-24 20:19:21.915 [info] [main] Log level: Info
+2024-10-24 20:19:21.915 [info] [main] Validating found git in: "git"
+2024-10-24 20:19:21.915 [info] [main] Using git "2.46.1" from "git"
+2024-10-24 20:19:21.915 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-24 20:19:21.915 [info] > git rev-parse --show-toplevel [26ms]
+2024-10-24 20:19:21.915 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-24 20:19:21.915 [info] [Model][openRepository] Opened repository: /home/docnite/Desktop/Rust/re-lonarpg
+2024-10-24 20:19:21.916 [info] > git rev-parse --show-toplevel [140ms]
+2024-10-24 20:19:21.917 [info] > git config --get commit.template [150ms]
+2024-10-24 20:19:21.985 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-24 20:19:21.987 [info] > git rev-parse --show-toplevel [20ms]
+2024-10-24 20:19:21.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-10-24 20:19:22.049 [info] > git status -z -uall [39ms]
+2024-10-24 20:19:22.049 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+2024-10-24 20:19:22.066 [info] > git rev-parse --show-toplevel [68ms]
+2024-10-24 20:19:22.090 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2024-10-24 20:19:22.109 [info] > git config --local branch.master.vscode-merge-base [6ms]
+2024-10-24 20:19:22.109 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-24 20:19:22.120 [info] > git rev-parse --show-toplevel [31ms]
+2024-10-24 20:19:22.124 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-24 20:19:22.124 [info] > git config --get commit.template [45ms]
+2024-10-24 20:19:22.127 [info] > git reflog master --grep-reflog=branch: Created from *. [8ms]
+2024-10-24 20:19:22.147 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-24 20:19:22.148 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [12ms]
+2024-10-24 20:19:22.148 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-24 20:19:22.148 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-24 20:19:22.150 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-24 20:19:22.177 [info] > git status -z -uall [15ms]
+2024-10-24 20:19:22.180 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-24 20:19:22.312 [info] > git show --textconv :shell.nix [11ms]
+2024-10-24 20:19:22.323 [info] > git ls-files --stage -- /home/docnite/Desktop/Rust/re-lonarpg/shell.nix [12ms]
+2024-10-24 20:19:22.336 [info] > git cat-file -s f33062fb4ec4d99ea3900ec7d73079f5f12ebcd4 [3ms]
+2024-10-24 20:19:22.431 [info] > git check-ignore -v -z --stdin [2ms]

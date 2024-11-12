@@ -1,0 +1,8 @@
+
+(defwindow win-bar
+	:monitor 0
+	:stacking "fg"
+	:exlusive true
+	(wid)
+)
+  

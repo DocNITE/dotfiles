@@ -1,0 +1,13 @@
+				  
+
+(defwindow win-bar
+	:monitor 0
+	:stacking "fg"
+	:exlusive true
+	(two-boxes :name "foo"
+  (button :onclick "notify-send hey ho"
+    "click me")
+  (button :onclick "notify-send hey da"
+     "2"))
+)
+  

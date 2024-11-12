@@ -1,0 +1,13 @@
+2024-10-24 20:19:45.287 [info] Getting Manifest... rhaiscript.vscode-rhai
+2024-10-24 20:19:45.745 [info] Installing extension: rhaiscript.vscode-rhai {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/docnite/.vscode/extensions/extensions.json","path":"/home/docnite/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-24 20:19:46.906 [info] Extension signature verification result for rhaiscript.vscode-rhai: UnknownError. Executed: true. Duration: 27ms.
+2024-10-24 20:19:46.936 [info] Extracted extension to file:///home/docnite/.vscode/extensions/rhaiscript.vscode-rhai-0.6.8: rhaiscript.vscode-rhai
+2024-10-24 20:19:46.939 [info] Renamed to /home/docnite/.vscode/extensions/rhaiscript.vscode-rhai-0.6.8
+2024-10-24 20:19:46.956 [info] Extension installed successfully: rhaiscript.vscode-rhai vscode-userdata:/home/docnite/.vscode/extensions/extensions.json
+2024-10-24 20:19:47.026 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/docnite/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/docnite/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

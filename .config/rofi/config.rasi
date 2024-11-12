@@ -2,7 +2,8 @@
 
 configuration {
   show-icons:                     true;
-  drun-display-format:            "{name}";
+  drun-display-format: "{name}";
+  /*drun-display-format:            "{name} [<span weight='light' size='small'><i>({generic})</i></span>]";*/
 	hide-scrollbar: 				true;
 	sidebar-mode: 					false;
 }
@@ -63,7 +64,7 @@ element normal.active {
 }
 
 element selected.normal {
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: @selected-border-color;
     text-color:       @selected-color;
 }

@@ -5,7 +5,7 @@
     # Display notifications on monitor with mouse focus
     follow = mouse
     # Set {width}x{height} and {x_pos}+{y_pos}
-    geometry = "300x30-5+60"
+    #geometry = "300x30-5+60"
     # Show number of hidden notifications
     indicate_hidden = yes
     # Shrink window if smaller than width
@@ -46,9 +46,10 @@
     # %p - progress value (if set)
     # %n - progress value no extra characters
     # %% - literal %
-    format = "<b>%a</b>\n<i>%s</i>\n%b"
+    #format = "<b>%a</b>\n<i>%s</i>\n%b"
+    format = "<b>%s</b>\n%b"
     # Align message text horizontally
-    alignment = center
+    alignment = left
     # Align message text vertically
     vertical_alignment = center
     # Show age of message if message is older than x seconds
@@ -68,7 +69,7 @@
    
     ### Icons ###
     
-    # Disable icons
+    # Icons
     icon_position = left
 
     ### History ###
@@ -79,9 +80,9 @@
     ### Misc ###
     
     # Dmenu path
-    dmenu = /usr/bin/dmenu -p dunst:
+    dmenu = dmenu -p dunst:
     # Browser
-    browser = /usr/bin/firefox -new-tab
+    browser = firefox -new-tab
     # Always run scripts
     always_run_script = true
     # Title of notification

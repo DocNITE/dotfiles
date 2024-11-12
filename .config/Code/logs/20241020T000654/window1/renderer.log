@@ -1,0 +1,3 @@
+2024-10-20 00:06:55.466 [info] Started local extension host with pid 39875.
+2024-10-20 00:06:58.123 [info] [perf] Render performance baseline is 24ms
+2024-10-20 00:07:06.827 [error] [network] #3: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

@@ -1,0 +1,6 @@
+{
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Ayu Dark"
+}

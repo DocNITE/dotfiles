@@ -1,0 +1,51 @@
+2024-10-26 10:26:53.563 [info] [main] Log level: Info
+2024-10-26 10:26:53.563 [info] [main] Validating found git in: "git"
+2024-10-26 10:26:53.563 [info] [main] Using git "2.46.1" from "git"
+2024-10-26 10:26:53.563 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-26 10:26:53.563 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-26 10:26:53.563 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-26 10:26:53.563 [info] [Model][openRepository] Opened repository: /home/docnite/Desktop/Rust/battery-notify
+2024-10-26 10:26:53.564 [info] > git rev-parse --show-toplevel [115ms]
+2024-10-26 10:26:53.565 [info] > git config --get commit.template [127ms]
+2024-10-26 10:26:53.644 [info] > git rev-parse --show-toplevel [34ms]
+2024-10-26 10:26:53.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2024-10-26 10:26:53.684 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/docnite/Desktop/Rust/battery-notify/.git/refs/remotes/origin/master'
+2024-10-26 10:26:53.685 [info] > git rev-parse --show-toplevel [27ms]
+2024-10-26 10:26:53.687 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-26 10:26:53.688 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2024-10-26 10:26:53.715 [info] > git status -z -uall [16ms]
+2024-10-26 10:26:53.716 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-26 10:26:53.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2024-10-26 10:26:53.771 [info] > git config --local branch.master.vscode-merge-base [7ms]
+2024-10-26 10:26:53.771 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-26 10:26:53.782 [info] > git config --get commit.template [29ms]
+2024-10-26 10:26:53.826 [info] > git reflog master --grep-reflog=branch: Created from *. [45ms]
+2024-10-26 10:26:53.854 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [17ms]
+2024-10-26 10:26:53.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [45ms]
+2024-10-26 10:26:53.878 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/docnite/Desktop/Rust/battery-notify/.git/refs/remotes/origin/master'
+2024-10-26 10:26:53.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [12ms]
+2024-10-26 10:26:53.891 [info] > git rev-parse refs/remotes/origin/master [14ms]
+2024-10-26 10:26:53.914 [info] > git status -z -uall [13ms]
+2024-10-26 10:26:53.914 [info] > git config --local branch.master.vscode-merge-base origin/master [24ms]
+2024-10-26 10:26:53.915 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms] (cancelled)
+2024-10-26 10:26:53.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-10-26 10:26:53.949 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-10-26 10:26:53.960 [info] > git config --get commit.template [23ms]
+2024-10-26 10:26:53.961 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-10-26 10:26:53.993 [info] > git merge-base refs/heads/master refs/remotes/origin/master [20ms]
+2024-10-26 10:26:54.007 [info] > git diff --name-status -z --diff-filter=ADMR 3b2d620214fb6525ce93f9bb99a933a7fdecc3f6...refs/remotes/origin/master [3ms]
+2024-10-26 10:26:54.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-10-26 10:26:54.018 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/docnite/Desktop/Rust/battery-notify/.git/refs/remotes/origin/master'
+2024-10-26 10:26:54.019 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-10-26 10:26:54.041 [info] > git status -z -uall [12ms]
+2024-10-26 10:26:54.042 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-26 10:26:54.082 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-26 10:26:54.766 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [11ms]
+2024-10-26 10:26:55.347 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-26 10:26:58.550 [info] > git checkout -q -- /home/docnite/Desktop/Rust/battery-notify/src/notification.rs [2ms]
+2024-10-26 10:26:58.580 [info] > git config --get commit.template [15ms]
+2024-10-26 10:26:58.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-26 10:26:58.593 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/docnite/Desktop/Rust/battery-notify/.git/refs/remotes/origin/master'
+2024-10-26 10:26:58.594 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-10-26 10:26:58.624 [info] > git status -z -uall [16ms]
+2024-10-26 10:26:58.626 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

@@ -1,0 +1,45 @@
+2024-10-24 13:28:49.784 [info] [main] Log level: Info
+2024-10-24 13:28:49.785 [info] [main] Validating found git in: "git"
+2024-10-24 13:28:49.785 [info] [main] Using git "2.46.1" from "git"
+2024-10-24 13:28:49.785 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-24 13:28:49.785 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-24 13:28:49.785 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-24 13:28:49.785 [info] [Model][openRepository] Opened repository: /home/docnite/Desktop/Rust/re-lonarpg
+2024-10-24 13:28:49.786 [info] > git config --get commit.template [10ms]
+2024-10-24 13:28:49.787 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-24 13:28:49.788 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-24 13:28:49.813 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-24 13:28:49.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-10-24 13:28:49.843 [info] > git status -z -uall [20ms]
+2024-10-24 13:28:49.951 [info] > git rev-parse --show-toplevel [110ms]
+2024-10-24 13:28:49.951 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [119ms]
+2024-10-24 13:28:50.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [66ms]
+2024-10-24 13:28:50.059 [info] > git config --local branch.master.vscode-merge-base [21ms]
+2024-10-24 13:28:50.059 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-24 13:28:50.069 [info] > git config --get commit.template [46ms]
+2024-10-24 13:28:50.069 [info] > git rev-parse --show-toplevel [56ms]
+2024-10-24 13:28:50.071 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-24 13:28:50.075 [info] > git reflog master --grep-reflog=branch: Created from *. [7ms]
+2024-10-24 13:28:50.101 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-24 13:28:50.109 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [26ms]
+2024-10-24 13:28:50.109 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-24 13:28:50.109 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-24 13:28:50.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-10-24 13:28:50.135 [info] > git status -z -uall [16ms]
+2024-10-24 13:28:50.135 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-24 13:28:50.485 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-24 13:29:22.567 [info] > git show --textconv :shell.nix [15ms]
+2024-10-24 13:29:22.568 [info] > git ls-files --stage -- /home/docnite/Desktop/Rust/re-lonarpg/shell.nix [3ms]
+2024-10-24 13:29:22.583 [info] > git cat-file -s f33062fb4ec4d99ea3900ec7d73079f5f12ebcd4 [3ms]
+2024-10-24 13:29:23.744 [info] > git show --textconv :starship.toml [15ms]
+2024-10-24 13:29:23.745 [info] > git ls-files --stage -- /home/docnite/Desktop/Rust/re-lonarpg/starship.toml [4ms]
+2024-10-24 13:29:30.607 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [211ms]
+2024-10-24 13:29:33.288 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [109ms]
+2024-10-24 13:29:44.958 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-24 13:29:44.959 [info] > git config --get commit.template [13ms]
+2024-10-24 13:29:44.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-24 13:29:44.984 [info] > git status -z -uall [12ms]
+2024-10-24 13:29:44.984 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-24 13:31:38.113 [info] > git show --textconv :rust-toolchain.toml [14ms]
+2024-10-24 13:31:38.114 [info] > git ls-files --stage -- /home/docnite/Desktop/Rust/re-lonarpg/rust-toolchain.toml [2ms]
+2024-10-24 13:31:38.127 [info] > git cat-file -s 292fe499e3b25d42211661ba9c7fafe6120186ca [2ms]

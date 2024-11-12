@@ -1,0 +1,16 @@
+
+(defwidget greeter [?text name]
+	(box :orientation "horizontal"
+		 :halign "center"
+	  text
+	  (button :onclick "notify-send 'Hello' 'Hello, ${name}'"
+		"dGreet")))
+
+(defwindow example 
+	:monitor 0
+	:stacking "fg"
+	:exlusive true
+	(greeter 
+			 :name "Basdurh"))
+
+  

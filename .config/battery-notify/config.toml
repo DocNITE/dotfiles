@@ -1,0 +1,9 @@
+sleep_command = "systemctl suspend"
+interval_secs = 1
+sleep_pct = 15
+low_pct = 40
+warn_on_mons_with_no_ac = 2
+bluetooth_low_pct = 40
+show_title = true
+title = "Battery notification"
+charge_icons = ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹", "󰂄"]
