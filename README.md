@@ -5,7 +5,7 @@ TODO: Need make some screen shots and description
 
 ---
 
-<video width="600" controls>
-  <source src="https://github.com/DocNITE/dots/blob/8caef2177f6558e8b9dd1fe735ad2df94561f802/assets/overview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+assets/overview.mp4
+
+https://github.com/user-attachments/assets/10fb474d-4b93-454b-b76d-72a029366d7c
+
