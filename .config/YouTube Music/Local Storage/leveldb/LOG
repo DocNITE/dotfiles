@@ -1,3 +1,12 @@
-2024/11/12-15:43:57.084 30d7 Reusing MANIFEST /home/docnite/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
-2024/11/12-15:43:57.108 30d7 Recovering log #20
-2024/11/12-15:43:57.108 30d7 Reusing old log /home/docnite/.config/YouTube Music/Local Storage/leveldb/000020.log 
+2024/11/14-20:04:35.481 12c68 Reusing MANIFEST /home/docnite/.config/YouTube Music/Local Storage/leveldb/MANIFEST-000001
+2024/11/14-20:04:35.502 12c68 Recovering log #25
+2024/11/14-20:04:35.504 12c68 Reusing old log /home/docnite/.config/YouTube Music/Local Storage/leveldb/000025.log 
+2024/11/14-20:55:56.182 12c68 Level-0 table #30: started
+2024/11/14-20:55:56.185 12c68 Level-0 table #30: 10867 bytes OK
+2024/11/14-20:55:56.186 12c68 Delete type=0 #25
+2024/11/15-02:56:17.030 12c67 Level-0 table #32: started
+2024/11/15-02:56:17.031 12c67 Level-0 table #32: 10467 bytes OK
+2024/11/15-02:56:17.034 12c67 Delete type=0 #29
+2024/11/15-03:49:24.514 12c68 Level-0 table #34: started
+2024/11/15-03:49:24.516 12c68 Level-0 table #34: 11120 bytes OK
+2024/11/15-03:49:24.517 12c68 Delete type=0 #31

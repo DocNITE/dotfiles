@@ -8,7 +8,7 @@
 		"x": 0,
 		"y": 0
 	},
-	"url": "https://music.youtube.com/watch?v=qE5S9pUTGno&list=PL1nd2j4PZohg0lNGhSLtspT2L2jhDM5O7&index=0",
+	"url": "https://music.youtube.com/watch?v=HoqSbJ03zgo&list=RDAMPLOLAK5uy_klp7zVgFf5WcoS7ay50sKW-mtFuRrvfu0&index=0",
 	"options": {
 		"tray": true,
 		"appVisible": true,
@@ -63,7 +63,7 @@
 	},
 	"__internal__": {
 		"migrations": {
-			"version": "3.5.1"
+			"version": "3.6.2"
 		}
 	}
 }
