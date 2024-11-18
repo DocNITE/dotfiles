@@ -15,6 +15,7 @@ local servers = {
   "hyprls", 
   "rubocop", 
   "csharp_ls",
+  "denols",
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 

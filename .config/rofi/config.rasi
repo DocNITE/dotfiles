@@ -8,10 +8,26 @@ configuration {
 	sidebar-mode: 					false;
 }
 
-window {
+/*window {
    background-color: @background-color;
    width: 500px;
    padding: 10px;
+   fullscreen: false;
+   border:  2px;
+   border-radius: 10px;
+   border-color: @border-color;
+}*/
+
+
+window {
+   background-color: @background-color;
+   width: 500px;
+   height: 100%;
+   padding: 10px;
+   margin: 0px 0px 20px;
+   location: north west;
+   x-offset: 10px;
+   y-offset: 10px;
    fullscreen: false;
    border:  2px;
    border-radius: 10px;
