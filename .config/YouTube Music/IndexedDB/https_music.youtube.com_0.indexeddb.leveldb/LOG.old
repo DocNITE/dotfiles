@@ -1,0 +1,6 @@
+2024/11/17-04:01:54.305 1ae57 Reusing MANIFEST /home/docnite/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/17-04:01:54.306 1ae57 Recovering log #33
+2024/11/17-04:01:54.333 1ae57 Reusing old log /home/docnite/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000033.log 
+2024/11/17-05:53:31.963 1ae2c Level-0 table #38: started
+2024/11/17-05:53:31.976 1ae2c Level-0 table #38: 1485881 bytes OK
+2024/11/17-05:53:31.980 1ae2c Delete type=0 #33
