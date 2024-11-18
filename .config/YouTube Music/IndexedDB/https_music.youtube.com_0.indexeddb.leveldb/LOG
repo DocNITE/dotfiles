@@ -1,7 +1,0 @@
-2024/11/17-20:30:24.624 5022 Reusing MANIFEST /home/docnite/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/17-20:30:24.624 5022 Recovering log #37
-2024/11/17-20:30:24.625 5022 Reusing old log /home/docnite/.config/YouTube Music/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/000037.log 
-2024/11/17-20:30:26.538 5002 Compacting 1@1 + 1@2 files
-2024/11/17-20:30:26.549 5002 Generated table #40@1: 694 keys, 36785 bytes
-2024/11/17-20:30:26.549 5002 Compacted 1@1 + 1@2 files => 36785 bytes
-2024/11/17-20:30:26.550 5002 compacted to: files[ 0 0 1 0 0 0 0 ]
