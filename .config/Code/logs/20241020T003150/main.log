@@ -1,5 +1,0 @@
-2024-10-20 00:31:50.700 [info] update#setState idle
-2024-10-20 00:32:20.703 [info] update#setState checking for updates
-2024-10-20 00:32:20.907 [info] update#setState idle
-2024-10-20 00:32:39.632 [info] Extension host with pid 44530 exited with code: 0, signal: unknown.
-2024-10-20 00:32:39.672 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072529312000, signal: unknown

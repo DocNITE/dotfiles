@@ -1,3 +1,0 @@
-2024-10-20 15:37:09.547 [info] Started local extension host with pid 39170.
-2024-10-20 15:37:12.977 [info] [perf] Render performance baseline is 159ms
-2024-10-20 15:38:18.917 [error] ENOENT: no such file or directory, open '/home/docnite/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/docnite/.config/Code/User/globalStorage/vscodevim.vim/.registers'
