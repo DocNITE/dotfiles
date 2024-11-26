@@ -1,1 +1,31 @@
+# TODO: Need configure that
+.config/Code
+
 .config/YouTube Music
+.config/cmus
+.config/cava
+.config/dconf
+.config/FamiStudio
+.config/nautilus
+.config/obs-studio 
+.config/pulse 
+.config/session
+.config/xfce4
+.config/xsettingsd
+.config/ytui_music
+.config/zdoom
+.config/gzdoom
+.config/kde.org
+.config/home-manager
+.config/dolphinrc
+.config/kdeglobals
+.config/mimeapps.list
+.config/pavucontrol.ini
+.config/QtProject.conf
+.config/arkrc
+.config/vlc
+.config/jj
+.config/godot
+.config/font-manager
+.config/fontconfig
+.config/menus

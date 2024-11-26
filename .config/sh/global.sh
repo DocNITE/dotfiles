@@ -9,6 +9,11 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+# Wallpaper changer
+function change-wallpaper() {
+  source ~/.config/sh/change-wallpaper.sh 
+}
+
 # Emoji picker
 function emopicker9000() {
   sh ~/.config/sh/emopicker9000.sh

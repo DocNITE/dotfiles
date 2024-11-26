@@ -146,7 +146,7 @@
   "format-linked": "󰈀 {ifname} (No IP)",
   "format-disconnected": "",
   "tooltip-format-disconnected": "Disconnected",
-  "on-click": "/usr/local/bin/ags -t ControlPanel",
+  "on-click": "",
   "interval": 2
 },
 
@@ -261,7 +261,7 @@
     "format": "{:%I\n%M\n%S}",
     "interval": 1,
     "rotate": 0,
-   "on-click": "/usr/local/bin/ags -t ActivityCenter",
+   "on-click": "",
     "tooltip-format": "<tt>{calendar}</tt>",
     "calendar": {
         "mode": "month",

@@ -1,0 +1,29 @@
+ls
+cd ..
+y
+ls
+cd ..
+ls
+cd docnite
+ls
+l
+nvim .zshrc
+# Run starship<\n>eval "$(starship init zsh)"<\n><\n># Source any global staff, not specified for ZSH or BASH<\n>source ~/.config/sh/global.sh<\n>
+starship init
+starship init nu
+starship init zsh
+ls
+y
+nvim .zshrc
+source ~/.config/sh/global.sh<\n>
+source ~/.config/sh/global.sh
+cd Desktop
+ls
+cd Rust
+cd amethyst
+cd target
+ls
+cd debug
+ls
+cd deps
+ls
