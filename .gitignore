@@ -1,6 +1,9 @@
 # TODO: Need configure that
 .config/Code
 
+# TODO: Also
+.config/nushell
+
 .config/YouTube Music
 .config/cmus
 .config/cava
