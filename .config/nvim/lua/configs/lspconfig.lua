@@ -7,15 +7,17 @@ local util = require 'lspconfig.util'
 local omnisharp_bin = "/nix/store/z957pdpfgvrs0iq5q8p5633k127ps5q9-omnisharp-roslyn-1.39.11/bin/OmniSharp";
 
 -- EXAMPLE
-local servers = { 
-  "html", 
-  "cssls", 
-  "nixd", 
-  "rust_analyzer", 
-  "hyprls", 
-  "rubocop", 
+local servers = {
+  "html",
+  "cssls",
+  "nixd",
+  "rust_analyzer",
+  "hyprls",
+  "rubocop",
   "csharp_ls",
   "denols",
+  "ccls",
+  "pylsp",
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 

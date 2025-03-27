@@ -4,6 +4,8 @@
 # TODO: Also
 .config/nushell
 
+.config/btop/btop.log
+
 .config/YouTube Music
 .config/cmus
 .config/cava
